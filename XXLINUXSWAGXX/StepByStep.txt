@@ -1,0 +1,31 @@
+mkdir xmrig 	
+cd xmrig
+
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-focal-x64.tar.gz
+
+tar -xvf xm*
+
+rm xmrig-6.16.2-focal-x64.tar.gz
+
+ls 
+
+**********************************
+
+
+***************************************
+
+cd xmrig-6.16.2 
+
+ls
+
+
+
+sudo nano config.json (change wallet coin algo pool)
+
+ctrl+o  
+
+ctrl+x
+
+./xmrig --donate-level 1 --api-port 443 --api-worker-id oppa --max-cpu-usage 99 -o xmr-us-east1.nanopool.org:14433 -u monero:41nTJhaUKuTZNcJw64PC6YeeSKC5aUKuWZHLhZ6y2A18KofLsBMUqp6Nna42QCiRYKW9zkvxcHDoHExaCupfXio5UrhtMmT -p x --algo rx/0 -k --tls 443
+
+
